@@ -8,7 +8,11 @@ For dependency management it uses the de facto standard [composer](https://getco
 If you meet both of the prerequisites, you are ready to create your first Strike project
 via composers `create-project` command:
 ```bash
-composer create-project strike-php/strike my-new-project
+composer create-project strike/strike my-new-project
 ```
-After composer has finished creating the project, you can use the built-in local 
+After composer has finished creating the project, you can use PHP's built-in local 
 development server to start develop your new Strike project.
+```bash
+cd my-new-project/public
+php -S 127.0.0.1:8080
+```
