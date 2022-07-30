@@ -13,14 +13,20 @@ export default {
                     {text: 'Configuration', link: '/configuration'},
                 ]
             },
-            // {
-            //     text: 'Routing',
-            //     items: [
-            //         {text: 'Declaration', link: '/routing/declaration'},
-            //         {text: 'Handling', link: '/routing/handling'},
-            //         {text: 'Middleware', link: '/routing/middlewares'},
-            //     ]
-            // },
+            {
+                text: 'Routing',
+                items: [
+                    {text: 'Declaration', link: '/routing/declaration'},
+                    {text: 'Handling', link: '/routing/handling'},
+                    {text: 'Middleware', link: '/routing/middlewares'},
+                ]
+            },
+            {
+                text: 'CLI',
+                items: [
+                    {text: 'Create CLI Commands', link: '/cli/create-cli-commands'},
+                ]
+            },
         ]
     }
 }
