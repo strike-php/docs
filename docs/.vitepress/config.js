@@ -19,12 +19,28 @@ export default {
                     {text: 'Declaration', link: '/routing/declaration'},
                     {text: 'Handling', link: '/routing/handling'},
                     {text: 'Middleware', link: '/routing/middlewares'},
+                    {text: 'Request', link: '/routing/request'},
+                    {text: 'Response', link: '/routing/response'},
+                    {text: 'Caching', link: '/routing/caching'},
                 ]
             },
             {
                 text: 'CLI',
                 items: [
                     {text: 'Create CLI Commands', link: '/cli/create-cli-commands'},
+                ]
+            },
+            {
+                text: 'Modules',
+                items: [
+                    {text: 'Overview', link: '/modules/overview'},
+                    {text: 'Create own Module', link: '/modules/create-your-own'},
+                ]
+            },
+            {
+                text: 'Development',
+                items: [
+                    {text: 'Contribute', link: '/contribute'},
                 ]
             },
         ]
