@@ -9,8 +9,8 @@ export default {
             {
                 text: 'Getting started',
                 items: [
-                    {text: 'Installation', link: '/installation'},
-                    {text: 'Configuration', link: '/configuration'},
+                    {text: 'Installation', link: '/getting-started/installation'},
+                    {text: 'Folder structure', link: '/getting-started/folder-structure'},
                 ]
             },
             {
@@ -21,13 +21,13 @@ export default {
                     {text: 'Middleware', link: '/routing/middlewares'},
                     {text: 'Request', link: '/routing/request'},
                     {text: 'Response', link: '/routing/response'},
-                    {text: 'Caching', link: '/routing/caching'},
                 ]
             },
             {
                 text: 'CLI',
                 items: [
-                    {text: 'Create CLI Commands', link: '/cli/create-cli-commands'},
+                    {text: 'Strike CLI', link: '/cli/strike-cli'},
+                    {text: 'Create own CLI Commands', link: '/cli/create-cli-commands'},
                 ]
             },
             {
@@ -35,6 +35,13 @@ export default {
                 items: [
                     {text: 'Overview', link: '/modules/overview'},
                     {text: 'Create own Module', link: '/modules/create-your-own'},
+                ]
+            },
+            {
+                text: 'Testing',
+                items: [
+                    {text: 'PHPUnit', link: '/testing/phpunit'},
+                    {text: 'Behat', link: '/testing/behat'},
                 ]
             },
             {
