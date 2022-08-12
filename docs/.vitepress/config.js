@@ -1,14 +1,28 @@
 export default {
     title: 'Strike Framework',
-    description: 'Just playing around.',
+    description: 'Official docs for the Strike Framework',
+    lastUpdated: true,
     themeConfig: {
+        algolia: {
+            appId: 'D56YHRK1NV',
+            apiKey: 'aa2add2f79139eb0f0cfe3b6320a6595',
+            indexName: 'strike_docs',
+        },
+        editLink: {
+            pattern: 'https://github.com/strike-php/docs/edit/main/docs/:path',
+            text: 'Edit this page on GitHub'
+        },
         socialLinks: [
             {icon: 'github', link: 'https://github.com/strike-php/framework'},
+        ],
+        nav: [
+            {text: 'Docs', link: '/getting-started/what-is-strike'},
         ],
         sidebar: [
             {
                 text: 'Getting started',
                 items: [
+                    {text: 'What is Strike', link: '/getting-started/what-is-strike'},
                     {text: 'Installation', link: '/getting-started/installation'},
                     {text: 'Folder structure', link: '/getting-started/folder-structure'},
                 ]
