@@ -3,11 +3,6 @@ export default {
     description: 'Official docs for the Strike Framework',
     lastUpdated: true,
     themeConfig: {
-        algolia: {
-            appId: 'D56YHRK1NV',
-            apiKey: 'aa2add2f79139eb0f0cfe3b6320a6595',
-            indexName: 'strike_docs',
-        },
         editLink: {
             pattern: 'https://github.com/strike-php/docs/edit/main/docs/:path',
             text: 'Edit this page on GitHub'
@@ -28,13 +23,13 @@ export default {
                 ]
             },
             {
-                text: 'Routing',
+                text: 'The Basics',
                 items: [
-                    {text: 'Declaration', link: '/routing/declaration'},
-                    {text: 'Handling', link: '/routing/handling'},
-                    {text: 'Middleware', link: '/routing/middlewares'},
-                    {text: 'Request', link: '/routing/request'},
-                    {text: 'Response', link: '/routing/response'},
+                    {text: 'Routing', link: '/basics/routing'},
+                    {text: 'Logging', link: '/basics/logging'},
+                    {text: 'Middleware', link: '/basics/middlewares'},
+                    {text: 'Request', link: '/basics/request'},
+                    {text: 'Response', link: '/basics/response'},
                 ]
             },
             {
